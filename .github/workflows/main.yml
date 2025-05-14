@@ -11,8 +11,8 @@ on:
   workflow_dispatch:
 
   # Triggers the workflow on a schedule (every minute for testing)
-  schedule:
-    - cron: '0 0 * * *'
+  #schedule:
+  #  - cron: '0 0 * * *'
 
 jobs:
   clean-up-images:
